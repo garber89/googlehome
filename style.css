@@ -79,3 +79,52 @@ align-content: space-between;
 .footright  a{
     padding: 15px;
 }
+.center{
+    text-align: center;
+}
+.formdiv{
+    width: 55vw;
+    height: 5vh;
+    border:  2px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20% 20% 20% 20%;
+}
+form input{
+    margin: auto;
+    width: 50vh;
+    height: 30px;
+    border: none;
+}
+#mic{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    transform: translate(900%,-220%);
+    border: none;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+#glass{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: right;
+    transform: translate(100%,-390%);
+    border: none;
+    background: transparent;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.searchpar{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
