@@ -6,6 +6,20 @@ body, input, button, a {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
 }
+.center-flex{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    height: 21vh;
+}
+#google{
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    align-self: flex-end;
+}
+.rad-cir{
+    border-radius: 25%;
+}
 .flex{
 display: flex;
 flex-direction: column;
@@ -34,10 +48,34 @@ nav a{
 .blocky{
     display: block;
     text-align: center;
+    width: 100%;
 }
 footer{
     background: #f2f2f2;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 0 20px;
+    bottom: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+}
+.wide{
+    width: 100%;
+}
+.footright{
+display: flex;
+align-content: space-between;
+}
+.footleft{
+    display: flex;
+    justify-content: space-between;
+}
+ .footleft  a{
+    padding: 15px;
+}
+.footright  a{
+    padding: 15px;
 }
